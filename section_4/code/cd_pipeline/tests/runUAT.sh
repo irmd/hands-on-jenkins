@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # set variables
-#hostname='localhost'
-hostname=`ip route get 1 | awk '{print $NF;exit}'`
+hostname='localhost'
+#hostname=`ip route get 1 | awk '{print $NF;exit}'`
 port=$1
 
 # wait for the app to start
