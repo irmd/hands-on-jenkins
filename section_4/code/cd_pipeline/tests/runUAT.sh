@@ -2,7 +2,7 @@
 
 # set variables
 #hostname='localhost'
-localhost=172.17.0.1
+hostname=172.17.0.1
 #hostname=`ip route get 1 | awk '{print $NF;exit}'`
 port=$1
 
